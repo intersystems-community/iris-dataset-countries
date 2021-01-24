@@ -21,10 +21,10 @@
         "showSystem": false,
         "previewLimit": 50,
         "server": "localhost",
-        "port": 55007,
+        "port": 55008,
         "askForPassword": false,
         "driver": "InterSystems IRIS",
-        "name": "iris-dataset-titanic",
+        "name": "iris-dataset-country",
         "username": "_SYSTEM",
         "password": "SYS"
       }

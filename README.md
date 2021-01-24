@@ -1,12 +1,12 @@
-## iris-dataset-titanic
-This repository contains a class and data of Titanic passengers in a Global
+## iris-dataset-countries
+This repository contains a class and data of countries in a Global
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
 ## Installation 
 
-zpm "install dataset-titanic"
+zpm "install dataset-countries"
 
 ## Development
 
@@ -29,25 +29,26 @@ In IRIS terminal:
 ```
 $ docker-compose exec iris iris session iris
 USER>D $System.SQL.Shell()
-[SQL]USER>>Select * from dc_data.Titanic
+[SQL]USER>>Select * from dc_data.Country
 ...
-890     890     1       1       Behr, Mr. Karl Howell   male    26      0       0       111369  30       C148    C
-891     891     0       3       Dooley, Mr. Patrick     male    32      0       0       370376  7.75             Q
+165     ZAF     South Africa    Africa  Southern Africa 1221037 1910    40377000        51.1    116729   129092  South Africa    Republic        Thabo Mbeki     716     ZA
+166     ZMB     Zambia  Africa  Eastern Africa  752618  1964    9169000 37.2    3377    3922    Zambia   Republic        Frederick Chiluba       3162    ZM
+167     ZWE     Zimbabwe        Africa  Eastern Africa  390757  1980    11669000        37.8    5951     8670    Zimbabwe        Republic        Robert G. Mugabe        4068    ZW
 
-891 Rows(s) Affected
-statement prepare time(s)/globals/cmds/disk: 0.2047s/51607/268016/0ms
-          execute time(s)/globals/cmds/disk: 0.1058s/892/161300/0ms
-                          cached query class: %sqlcq.USER.cls8
-```
+167 Rows(s) Affected
+statement prepare time(s)/globals/cmds/disk: 0.2921s/57002/303650/0ms
+          execute time(s)/globals/cmds/disk: 0.0490s/168/37878/0ms
+                          cached query class: %sqlcq.USER.cls6
+---------------------------------------------------------------------------
+[SQL]USER>>
 
 ## In InterSystems SQL Tools in VSCode
 Open repo in VSCode (see develoment above)
 Install [InterSystems SQLTools](https://marketplace.visualstudio.com/items?itemName=intersystems-community.sqltools-intersystems-driver)
 
-Use the connection "iris-dataset-titanic"
+Use the connection "iris-dataset-country"
 
-Open dc.data.Titanic table and see the records:
-<img width="968" alt="Screenshot 2021-01-21 at 13 33 53" src="https://user-images.githubusercontent.com/2781759/105340135-8e23ff80-5bee-11eb-9e5e-ff87dfdab047.png">
+Open dc_data.Country table and see the records:
 
 
 ## How to start coding
