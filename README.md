@@ -41,6 +41,7 @@ statement prepare time(s)/globals/cmds/disk: 0.2921s/57002/303650/0ms
                           cached query class: %sqlcq.USER.cls6
 ---------------------------------------------------------------------------
 [SQL]USER>>
+```
 
 ## In InterSystems SQL Tools in VSCode
 Open repo in VSCode (see develoment above)
@@ -49,6 +50,7 @@ Install [InterSystems SQLTools](https://marketplace.visualstudio.com/items?itemN
 Use the connection "iris-dataset-country"
 
 Open dc_data.Country table and see the records:
+<img width="1078" alt="Screenshot 2021-01-24 at 16 26 41" src="https://user-images.githubusercontent.com/2781759/105631746-0abe1480-5e61-11eb-8265-734a02b68aef.png">
 
 
 ## How to start coding
