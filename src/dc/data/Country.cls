@@ -31,6 +31,9 @@ Property capital As %Library.Integer(MAXVAL = 2147483647, MINVAL = -2147483648) 
 
 Property code2 As %Library.String(MAXLEN = 250) [ SqlColumnNumber = 16 ];
 
+/// Description
+Index Indexcode2 On code2 [ Unique ];
+
 ClassMethod Import(pSelectMode As %Library.Integer = {$zu(115,5)}, pFileName As %Library.String(MAXLEN=""), pDelimiter As %String = ",", pQuote As %String = """", pHeaders As %Integer = 0, ByRef pRecordCount As %Integer) As %Library.Integer [ SqlProc ]
 {
 	set tStatementId = $SYSTEM.Util.CreateGUID(), tCounter = 0, pRecordCount = 0
