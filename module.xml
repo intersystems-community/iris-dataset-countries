@@ -4,11 +4,12 @@
     <Module>
       <Name>dataset-countries</Name>
       <Description>Module imports the data of Country passengers in dc.data.Tinanic class</Description>
-      <Version>1.0.1</Version>
+      <Version>1.0.2</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.data.Country.CLS"/>
       <Resource Name="dc.data.CountryD.GBL"/>
+      <Invoke Class="dc.data.Country" Method="%BuildIndices"></Invoke>
     </Module>
   </Document>
 </Export>
