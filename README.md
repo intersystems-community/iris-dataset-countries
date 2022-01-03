@@ -1,6 +1,10 @@
 ## iris-dataset-countries
 This repository contains a class and data of countries in a Global
 
+## Source
+
+The countries datataset is borrowed from [the repo](https://github.com/datasciencedojo/datasets/blob/master/WorldDBTables/CountryTable.csv)
+
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
