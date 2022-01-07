@@ -3,8 +3,8 @@
   <Document name="dataset-countries.ZPM">
     <Module>
       <Name>dataset-countries</Name>
-      <Description>Module imports the data of Country passengers in dc.data.Tinanic class</Description>
-      <Version>1.0.2</Version>
+      <Description>Module delivers dc.data.Country class with data about World Countries</Description>
+      <Version>1.1.0</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.data.Country.CLS"/>

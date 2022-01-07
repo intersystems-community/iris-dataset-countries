@@ -1,11 +1,11 @@
-;do $System.OBJ.LoadDir("/opt/irisbuild/src","ck",,1)
+    ;do $System.OBJ.LoadDir("/opt/irisbuild/src","ck",,1)
 
-zn "%SYS"
-Do ##class(Security.Users).UnExpireUserPasswords("*")
+    zn "%SYS"
+    Do ##class(Security.Users).UnExpireUserPasswords("*")
 
-zn "USER"
-; zpm "install csvgen"
-; d ##class(community.csvgen).GenerateFromURL("https://raw.githubusercontent.com/datasciencedojo/datasets/master/country.csv",",","dc.data.Country")
+    zn "USER"
+    ; zpm "install csvgen"
+    ; d ##class(community.csvgen).GenerateFromURL("https://raw.githubusercontent.com/google/dspl/master/samples/google/canonical/countries.csv",",","dc.data.Country")
 
-zpm "load /opt/irisbuild/ -v":1:1
-halt
+    zpm "load /opt/irisbuild/ -v":1:1
+    halt
