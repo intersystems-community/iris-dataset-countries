@@ -5,7 +5,7 @@
 
     zn "USER"
     ; zpm "install csvgen"
-    ; d ##class(community.csvgen).GenerateFromURL("https://raw.githubusercontent.com/google/dspl/master/samples/google/canonical/countries.csv",",","dc.data.Country")
+    ; d ##class(community.csvgen).GenerateFromURL("https://raw.githubusercontent.com/intersystems-community/iris-dataset-countries/refs/heads/master/data/countries.csv",",","dc.data.Country")
 
     zpm "load /opt/irisbuild/ -v":1:1
     halt
