@@ -50,6 +50,11 @@ ClassMethod Import(pSelectMode As %Library.Integer = {$zu(115,5)}, pFileName As 
 	quit tCounter
 }
 
+ClassMethod ImportCountry()
+{
+	do ##class(community.csvgen).GenerateFromURL("https://raw.githubusercontent.com/intersystems-community/iris-dataset-countries/refs/heads/master/data/countries.csv",",","dc.data.Country")
+}
+
 Parameter ROWTYPE = "country VARCHAR(250),latitude MONEY,longitude MONEY,name VARCHAR(250)";
 
 Storage Default

@@ -2,14 +2,20 @@
 <Export generator="Cache" version="25">
   <Document name="dataset-countries.ZPM">
     <Module>
+     <Dependencies>
+        <ModuleReference>
+          <Name>csvgen</Name>
+          <Version>1.*</Version>
+        </ModuleReference>
+      </Dependencies>
       <Name>dataset-countries</Name>
       <Description>Module delivers dc.data.Country class with data about World Countries</Description>
       <Version>1.1.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.data.Country.CLS"/>
-      <Resource Name="dc.data.CountryD.GBL"/>
       <Invoke Class="dc.data.Country" Method="%BuildIndices"></Invoke>
+      <Invoke Class="dc.data.Country" Method="ImportCountry"></Invoke>
     </Module>
   </Document>
 </Export>
