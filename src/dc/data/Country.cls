@@ -9,6 +9,10 @@ Property longitude As %Library.Currency [ SqlColumnNumber = 4 ];
 
 Property name As %Library.String(MAXLEN = 250) [ SqlColumnNumber = 5 ];
 
+Property businessRegions As %Library.String [ SqlColumnNumber = 6 ];
+
+Property geographicRegions As %Library.String [ SqlColumnNumber = 7 ];
+
 ClassMethod Import(pSelectMode As %Library.Integer = {$zu(115,5)}, pFileName As %Library.String(MAXLEN=""), pDelimiter As %String = ",", pQuote As %String = """", pHeaders As %Integer = 0, ByRef pRecordCount As %Integer, pAppend As %Boolean = 0) As %Library.Integer [ SqlProc ]
 {
 	set tStatementId = $SYSTEM.Util.CreateGUID(), tCounter = 0, pRecordCount = 0
@@ -69,6 +73,12 @@ Storage Default
 </Value>
 <Value name="5">
 <Value>name</Value>
+</Value>
+<Value name="6">
+<Value>businessRegions</Value>
+</Value>
+<Value name="7">
+<Value>geographicRegions</Value>
 </Value>
 </Data>
 <DataLocation>^dc.data.CountryD</DataLocation>
