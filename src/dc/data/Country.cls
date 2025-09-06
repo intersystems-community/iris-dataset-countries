@@ -30,18 +30,24 @@ ClassMethod Import(pSelectMode As %Library.Integer = {$zu(115,5)}, pFileName As 
 					set tMe.latitude = tImporter.%GetData(2)
 					set tMe.longitude = tImporter.%GetData(3)
 					set tMe.name = tImporter.%GetData(4)
+					set tMe.businessRegions = tImporter.%GetData(5)
+					set tMe.geographicRegions = tImporter.%GetData(6)
 				}
 				elseif pSelectMode = 1 {
 					set tMe.country = $s('$system.CLS.IsMthd("countryOdbcToLogical"):tImporter.%GetData(1),1:tMe.countryOdbcToLogical(tImporter.%GetData(1)))
 					set tMe.latitude = $s('$system.CLS.IsMthd("latitudeOdbcToLogical"):tImporter.%GetData(2),1:tMe.latitudeOdbcToLogical(tImporter.%GetData(2)))
 					set tMe.longitude = $s('$system.CLS.IsMthd("longitudeOdbcToLogical"):tImporter.%GetData(3),1:tMe.longitudeOdbcToLogical(tImporter.%GetData(3)))
-					set tMe.name = $s('$system.CLS.IsMthd("nameOdbcToLogical"):tImporter.%GetData(4),1:tMe.nameOdbcToLogical(tImporter.%GetData(4)))
+					set tMe.businessRegions = $s('$system.CLS.IsMthd("businessRegionsOdbcToLogical"):tImporter.%GetData(5),1:tMe.businessRegionsOdbcToLogical(tImporter.%GetData(5)))
+					set tMe.geographicRegions = $s('$system.CLS.IsMthd("geographicRegionsOdbcToLogical"):tImporter.%GetData(6),1:tMe.geographicRegionsOdbcToLogical(tImporter.%GetData(6)))
+
 				}
 				elseif pSelectMode = 2 {
 					set tMe.country = $s('$system.CLS.IsMthd("countryDisplayToLogical"):tImporter.%GetData(1),1:tMe.countryDisplayToLogical(tImporter.%GetData(1)))
 					set tMe.latitude = $s('$system.CLS.IsMthd("latitudeDisplayToLogical"):tImporter.%GetData(2),1:tMe.latitudeDisplayToLogical(tImporter.%GetData(2)))
 					set tMe.longitude = $s('$system.CLS.IsMthd("longitudeDisplayToLogical"):tImporter.%GetData(3),1:tMe.longitudeDisplayToLogical(tImporter.%GetData(3)))
 					set tMe.name = $s('$system.CLS.IsMthd("nameDisplayToLogical"):tImporter.%GetData(4),1:tMe.nameDisplayToLogical(tImporter.%GetData(4)))
+					set tMe.businessRegions = $s('$system.CLS.IsMthd("businessRegionsDisplayToLogical"):tImporter.%GetData(5),1:tMe.businessRegionsDisplayToLogical(tImporter.%GetData(5)))
+					set tMe.geographicRegions = $s('$system.CLS.IsMthd("geographicRegionsDisplayToLogical"):tImporter.%GetData(6),1:tMe.geographicRegionsDisplayToLogical(tImporter.%GetData(6)))
 				}
 				set tStatus = tMe.%Save()
 				if $$$ISOK(tStatus) { set tCounter = tCounter + 1 }
@@ -54,7 +60,7 @@ ClassMethod Import(pSelectMode As %Library.Integer = {$zu(115,5)}, pFileName As 
 	quit tCounter
 }
 
-Parameter ROWTYPE = "country VARCHAR(250),latitude MONEY,longitude MONEY,name VARCHAR(250)";
+Parameter ROWTYPE = "country VARCHAR(250),latitude MONEY,longitude MONEY,name VARCHAR(250),businessRegions VARCHAR(250),geographicRegions VARCHAR(250)";
 
 Storage Default
 {

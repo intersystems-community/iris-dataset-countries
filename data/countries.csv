@@ -3,17 +3,17 @@ AD,42.5462,1.6016,Andorra,EMEA,Europe
 AE,23.4241,53.8478,United Arab Emirates,EMEA,Middle East
 AF,33.9391,67.71,Afghanistan,EMEA,South Asia
 AG,17.0608,-61.7964,Antigua and Barbuda,LATAM,North America
-AI,18.2206,-63.0686,Anguilla,,
+AI,18.2206,-63.0686,Anguilla,EMEA,Europe
 AL,41.1533,20.1683,Albania,EMEA,Europe
 AM,40.0691,45.0382,Armenia,EMEA,Asia
-AN,12.2261,-69.0601,Netherlands Antilles,,
+AN,12.2261,-69.0601,Netherlands Antilles,EMEA,Europe
 AO,-11.2027,17.8739,Angola,EMEA,Africa
 AQ,-75.251,-.0714,Antarctica,,
 AR,-38.4161,-63.6167,Argentina,LATAM,South America
 AS,-14.271,-170.1322,American Samoa,APAC,Oceania
 AT,47.5162,14.5501,Austria,EMEA,Europe
 AU,-25.2744,133.7751,Australia,APAC,Oceania
-AW,12.5211,-69.9683,Aruba,LATAM,
+AW,12.5211,-69.9683,Aruba,LATAM,South America
 AZ,40.1431,47.5769,Azerbaijan,EMEA,Asia
 BA,43.9159,17.6791,Bosnia and Herzegovina,EMEA,Europe
 BB,13.1939,-59.5432,Barbados,LATAM,North America
@@ -30,17 +30,17 @@ BO,-16.2902,-63.5887,Bolivia,LATAM,South America
 BR,-14.235,-51.9253,Brazil,LATAM,South America
 BS,25.0343,-77.3963,Bahamas,LATAM,North America
 BT,27.5142,90.4336,Bhutan,APAC,South Asia
-BV,-54.4232,3.4132,Bouvet Island,,
+BV,-54.4232,3.4132,Bouvet Island,EMEA,South Atlantic Ocean
 BW,-22.3285,24.6849,Botswana,EMEA,Africa
 BY,53.7098,27.9534,Belarus,EMEA,Europe
 BZ,17.1899,-88.4977,Belize,LATAM,Central America
 CA,56.1304,-106.3468,Canada,NA,North America
-CC,-12.1642,96.871,Cocos [Keeling] Islands,,
-CD,-4.0383,21.7587,Congo [DRC],,Africa
+CC,-12.1642,96.871,Cocos [Keeling] Islands,APAC,Oceania
+CD,-4.0383,21.7587,Congo [DRC],EMEA,Africa
 CF,6.6111,20.9394,Central African Republic,EMEA,Africa
-CG,-.228,15.8277,Congo [Republic],,Africa
+CG,-.228,15.8277,Congo [Republic],EMEA,Africa
 CH,46.8182,8.2275,Switzerland,EMEA,Europe
-CI,7.54,-5.5471,C?te d'Ivoire,,
+CI,7.54,-5.5471,C?te d'Ivoire,EMEA,Africa
 CK,-21.2367,-159.7777,Cook Islands,APAC,Oceania
 CL,-35.6751,-71.543,Chile,LATAM,South America
 CM,7.3697,12.3547,Cameroon,EMEA,Africa
@@ -49,7 +49,7 @@ CO,4.5709,-74.2973,Colombia,LATAM,South America
 CR,9.7489,-83.7534,Costa Rica,LATAM,Central America
 CU,21.5218,-77.7812,Cuba,LATAM,North America
 CV,16.0021,-24.0132,Cape Verde,EMEA,Africa
-CX,-10.4475,105.6904,Christmas Island,,
+CX,-10.4475,105.6904,Christmas Island,APAC,Oceania
 CY,35.1264,33.4299,Cyprus,EMEA,Europe
 CZ,49.8175,15.473,Czech Republic,EMEA,Europe
 DE,51.1657,10.4515,Germany,EMEA,Europe
@@ -67,7 +67,7 @@ ES,40.4637,-3.7492,Spain,EMEA,Europe
 ET,9.145,40.4897,Ethiopia,EMEA,Africa
 FI,61.9241,25.7482,Finland,EMEA,Europe
 FJ,-16.5782,179.4144,Fiji,APAC,Oceania
-FK,-51.7963,-59.5236,Falkland Islands [Islas Malvinas],,South America
+FK,-51.7963,-59.5236,Falkland Islands [Islas Malvinas],LATAM,South America
 FM,7.4256,150.5508,Micronesia,APAC,Oceania
 FO,61.8926,-6.9118,Faroe Islands,EMEA,Europe
 FR,46.2276,2.2137,France,EMEA,Europe
@@ -83,7 +83,7 @@ GI,36.1377,-5.3454,Gibraltar,EMEA,Europe
 GL,71.7069,-42.6043,Greenland,NA,North America
 GM,13.4432,-15.3101,Gambia,EMEA,Africa
 GN,9.9456,-9.6966,Guinea,EMEA,Africa
-GP,16.996,-62.0676,Guadeloupe,LATAM,
+GP,16.996,-62.0676,Guadeloupe,LATAM,North America
 GQ,1.6508,10.2679,Equatorial Guinea,EMEA,Africa
 GR,39.0742,21.8243,Greece,EMEA,Europe
 GS,-54.4296,-36.5879,South Georgia and the South Sandwich Islands,,
@@ -91,7 +91,7 @@ GT,15.7835,-90.2308,Guatemala,LATAM,Central America
 GU,13.4443,144.7937,Guam,APAC,Oceania
 GW,11.8037,-15.1804,Guinea-Bissau,EMEA,Africa
 GY,4.8604,-58.9302,Guyana,LATAM,South America
-GZ,31.3547,34.3088,Gaza Strip,,
+GZ,31.3547,34.3088,Gaza Strip,EMEA,Middle East
 HK,22.3964,114.1095,Hong Kong,APAC,Asia
 HM,-53.0818,73.5042,Heard Island and McDonald Islands,,
 HN,15.2,-86.2419,Honduras,LATAM,Central America
@@ -121,7 +121,7 @@ KN,17.3578,-62.783,Saint Kitts and Nevis,LATAM,North America
 KP,40.3399,127.5101,North Korea,APAC,East Asia
 KR,35.9078,127.7669,South Korea,APAC,East Asia
 KW,29.3117,47.4818,Kuwait,EMEA,Middle East
-KY,19.5135,-80.567,Cayman Islands,LATAM,
+KY,19.5135,-80.567,Cayman Islands,LATAM,North America
 KZ,48.0196,66.9237,Kazakhstan,APAC,Asia
 LA,19.8563,102.4955,Laos,APAC,Southeast Asia
 LB,33.8547,35.8623,Lebanon,EMEA,Middle East
@@ -140,15 +140,15 @@ MD,47.4116,28.3699,Moldova,EMEA,Europe
 ME,42.7087,19.3744,Montenegro,EMEA,Europe
 MG,-18.7669,46.8691,Madagascar,EMEA,Africa
 MH,7.1315,171.1845,Marshall Islands,APAC,Oceania
-MK,41.6086,21.7453,Macedonia [FYROM],,Europe
+MK,41.6086,21.7453,Macedonia [FYROM],EMEA,Europe
 ML,17.5707,-3.9962,Mali,EMEA,Africa
-MM,21.914,95.9562,Myanmar [Burma],,Asia
+MM,21.914,95.9562,Myanmar [Burma],APAC,Asia
 MN,46.8625,103.8467,Mongolia,APAC,East Asia
 MO,22.1987,113.5439,Macau,APAC,Asia
 MP,17.3308,145.3847,Northern Mariana Islands,APAC,Oceania
-MQ,14.6415,-61.0242,Martinique,LATAM,
+MQ,14.6415,-61.0242,Martinique,LATAM,North America
 MR,21.0079,-10.9408,Mauritania,EMEA,Africa
-MS,16.7425,-62.1874,Montserrat,LATAM,
+MS,16.7425,-62.1874,Montserrat,LATAM,North America
 MT,35.9375,14.3754,Malta,EMEA,Europe
 MU,-20.3484,57.5522,Mauritius,EMEA,Africa
 MV,3.2028,73.2207,Maldives,APAC,South Asia
@@ -179,12 +179,12 @@ PL,51.9194,19.1451,Poland,EMEA,Europe
 PM,46.9419,-56.2711,Saint Pierre and Miquelon,NA,
 PN,-24.7036,-127.4393,Pitcairn Islands,APAC,Oceania
 PR,18.2208,-66.5901,Puerto Rico,LATAM,North America
-PS,31.9522,35.2332,Palestinian Territories,,
+PS,31.9522,35.2332,Palestinian Territories,EMEA,Middle East
 PT,39.3999,-8.2245,Portugal,EMEA,Europe
 PW,7.515,134.5825,Palau,APAC,Oceania
 PY,-23.4425,-58.4438,Paraguay,LATAM,South America
 QA,25.3548,51.1839,Qatar,EMEA,Middle East
-RE,-21.1151,55.5364,R?union,,
+RE,-21.1151,55.5364,R?union,EMEA,Europe
 RO,45.9432,24.9668,Romania,EMEA,Europe
 RS,44.0165,21.0059,Serbia,EMEA,Europe
 RU,61.524,105.3188,Russia,EMEA,Europe
@@ -234,7 +234,7 @@ VA,41.9029,12.4534,Vatican City,EMEA,Europe
 VC,12.9843,-61.2872,Saint Vincent and the Grenadines,LATAM,North America
 VE,6.4238,-66.5897,Venezuela,LATAM,South America
 VG,18.4207,-64.64,British Virgin Islands,LATAM,North America
-VI,18.3358,-64.8963,U.S. Virgin Islands,,North America
+VI,18.3358,-64.8963,U.S. Virgin Islands,NA,North America
 VN,14.0583,108.2772,Vietnam,APAC,Southeast Asia
 VU,-15.3767,166.9592,Vanuatu,APAC,Oceania
 WF,-13.7688,-177.1561,Wallis and Futuna,APAC,Oceania
@@ -245,3 +245,19 @@ YT,-12.8275,45.1662,Mayotte,EMEA,Africa
 ZA,-30.5595,22.9375,South Africa,EMEA,Africa
 ZM,-13.1339,27.8493,Zambia,EMEA,Africa
 ZW,-19.0154,29.1549,Zimbabwe,EMEA,Africa
+UK,55.3781,-3.436,England (UK),EMEA,Europe
+VI,18.04,-64.8,"Virgin Islands, US",NA,North and South American
+TR,38.9637,35.2433,Turkiye,EMEA,Middle East
+UK,38.9637,35.2433,Scotland (UK),EMEA,Europe
+RE,-21.1307,55.5265,Reunion,EMEA,Europe
+UK,53.4287,-8.3321,Nothern Ireland (UK),EMEA,Europe
+MK,41.6137,21.7433,North Macedonia,EMEA,Europe
+AN,0,0,Netherlands Antilles,EMEA,Europe
+MM,19.0735,96.671,Myanmar,APAC,South Asia
+KR,35.9078,127.7669,"Korea, Republic",APAC,East Asia
+FK,-51.8143,-59.5318,Falkland Islands (Malvinas),LATAM,South America
+CI,0,0,Cote d'Ivoire,EMEA,Africa
+CD,-.228,15.8277,"Congo, Republic",EMEA,Africa
+CX,-10.4912,105.623,Christmas Islands,APAC,Oceania
+CV,16.0021,-24.0132,Cabo Verde,EMEA,Africa
+AI,0,0,Anguila,EMEA,Europe
